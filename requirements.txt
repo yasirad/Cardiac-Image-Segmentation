@@ -1,0 +1,7 @@
+matplotlib==3.2.1
+numpy==1.18.5
+scipy==1.4.1
+sklearn
+keras==2.13.1
+tensorflow==2.13.0
+medreaders==1.0.8
