@@ -175,8 +175,8 @@ for i in range(188):
         
 import sklearn as sk
 
-
-training,val, trainingL, valL = train_test_split(batch10,batch10Labels, test_size=0.2, random_state=1)
+#split the training data into training and validation in a 85 15 % split
+training,val, trainingL, valL = train_test_split(batch10,batch10Labels, test_size=0.15, random_state=1)
 model = Unet() #baseline model
 Unet_optimizer = keras.optimizers.Adam(learning_rate=0.0001)
 epochs = 20
